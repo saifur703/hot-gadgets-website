@@ -87,6 +87,7 @@ p {
 
 .boxed-btn:hover {
     background-color: #ffb02a;
+    color: #fff;
 }
 
 .welcome-area .carousel-indicators li {
@@ -221,6 +222,13 @@ button {
     text-transform: uppercase;
     background-color: #ffb02a;
     border-color: #ffb02a;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.subscribe-area input[type=email] {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
 
 .footer-area {
