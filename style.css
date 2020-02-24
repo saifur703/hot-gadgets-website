@@ -56,6 +56,10 @@ p {
 .welcome-area {
     color: #777;
     line-height: 1.7;
+    background-image: url("images/hader-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
 
 .welcome-area h1 {
@@ -87,4 +91,42 @@ p {
 .welcome-area .carousel-indicators li.active {
     background-image: linear-gradient(to left, #ffb02a 0%, #ffd019 100%);
     width: 50px;
+}
+
+.section-padding {
+    padding: 70px 0 35px;
+}
+
+.smart-phone-area h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.single-smart-phone {
+    background: #fff;
+    box-shadow: 10px 10px 30px #ddd;
+    padding: 30px 40px;
+    border-radius: 10px;
+    color: #777;
+    font-size: 16px;
+}
+
+.single-smart-phone img {
+    margin-bottom: 20px;
+}
+
+.single-smart-phone span {
+    display: block;
+    font-size: 30px;
+    font-weight: 700;
+    color: #222;
+}
+
+button {
+    border: none;
+}
+
+.smart-phone-area .see-all {
+    font-size: 18px;
+    color: #ffb02a;
 }
