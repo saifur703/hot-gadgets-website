@@ -53,6 +53,10 @@ p {
 }
 
 /*------End Base CSS------*/
+.header-area .nav-link {
+    font-size: 18px;
+}
+
 .welcome-area {
     color: #777;
     line-height: 1.7;
@@ -102,7 +106,7 @@ p {
     margin-bottom: 30px;
 }
 
-.single-smart-phone {
+.single-category {
     background: #fff;
     box-shadow: 10px 10px 30px #ddd;
     padding: 30px 40px;
@@ -111,11 +115,11 @@ p {
     font-size: 16px;
 }
 
-.single-smart-phone img {
+.single-category img {
     margin-bottom: 20px;
 }
 
-.single-smart-phone span {
+.single-category span {
     display: block;
     font-size: 30px;
     font-weight: 700;
@@ -126,7 +130,7 @@ button {
     border: none;
 }
 
-.smart-phone-area .see-all {
+.category-area .see-all {
     font-size: 18px;
     color: #ffb02a;
 }
