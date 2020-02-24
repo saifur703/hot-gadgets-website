@@ -85,6 +85,10 @@ p {
     margin-top: 20px;
 }
 
+.boxed-btn:hover {
+    background-color: #ffb02a;
+}
+
 .welcome-area .carousel-indicators li {
     background-color: #cecece;
     height: 8px;
@@ -191,4 +195,91 @@ button {
 .single-cat img {
     width: 100px;
     margin-bottom: 15px;
+}
+
+.subscribe-area {
+    padding-bottom: 70px;
+}
+
+.subscribe-area h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+    color: #666;
+    font-weight: 700;
+}
+
+.subscribe-area input {
+    border: none;
+    display: inline-block;
+    padding: 12px 30px;
+    border: 1px solid #ddd;
+    width: 100%;
+}
+
+.subscribe-area input[type=submit] {
+    width: auto;
+    text-transform: uppercase;
+    background-color: #ffb02a;
+    border-color: #ffb02a;
+}
+
+.footer-area {
+    padding-top: 70px;
+    background-color: rgba(221, 221, 221, 0.123);
+}
+
+.footer-area,
+.footer-area a {
+    color: #333;
+}
+
+.single-footer h3,
+.social-link h3 {
+    font-size: 25px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 15px;
+}
+
+.single-footer ul,
+.social-link ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.single-footer ul li {
+    display: block;
+}
+
+.single-footer li a {
+    display: block;
+    padding: 5px 0;
+    border-bottom: 1px dotted #ffb02a;
+}
+
+.facebook {
+    background-color: #4267b2;
+}
+
+.twitter {
+    background-color: #1DA1F2;
+}
+
+.linkedIn {
+    background-color: #0e76a8;
+}
+
+.social-link ul li {
+    display: inline-block;
+}
+
+.social-link ul li a {
+    display: block;
+    padding: 10px;
+    color: #fff;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
