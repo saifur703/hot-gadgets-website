@@ -1,0 +1,90 @@
+/*------Start Base CSS------*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto Condensed';
+    font-size: 15px;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+    border: none;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+a:focus {
+    color: #333;
+    text-decoration: none;
+}
+
+a:focus,
+input:focus,
+textarea:focus,
+button:focus {
+    outline: 0 solid;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+
+p {
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+/*------End Base CSS------*/
+.welcome-area {
+    color: #777;
+    line-height: 1.7;
+}
+
+.welcome-area h1 {
+    font-size: 45px;
+    margin-bottom: 30px;
+    font-weight: 700;
+    color: #222;
+}
+
+.boxed-btn {
+    display: inline-block;
+    background-color: #222;
+    padding: 12px 30px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.welcome-area .carousel-indicators li {
+    background-color: #cecece;
+    height: 8px;
+    width: 25px;
+    border-radius: 12px;
+}
+
+.welcome-area .carousel-indicators li.active {
+    background-image: linear-gradient(to left, #ffb02a 0%, #ffd019 100%);
+    width: 50px;
+}
